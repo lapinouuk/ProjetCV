@@ -1,0 +1,523 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, minimum-scale=0.7">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/ico" href="img/logowebLB.ico" />
+    <title>Loïc Bugnicourt - Ingénieur Recherche</title>
+  </head>
+  <body>
+    <div id="main_text">
+    <header id="top" class="bkgTrame replier">
+      <div id="top_head">
+        <div id="logo">
+          <img src="img/logowebLB.png" alt="logo_LB" />
+          <p>Loïc<br>Bugnicourt</p>
+        </div>
+        <div id="bouton_menu_mobile">
+          <img src="img/menu_mobile.png" />
+        </div>
+        <nav id="nav_mobile">
+          <ul>
+            <li><a href="#acceuil">Accueil</a></li>
+            <li><a href="#competencem">Compétences</a></li>
+            <li><a href="#experiencem">Expériences</a></li>
+            <li><a href="#publicationm">Publications</a></li>
+            <li><a href="#contactm">Contact</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="#acceuil">Accueil</a></li>
+            <li><a href="#competence">Compétences</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#publication">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="boutonBanniere"></div>
+    </header>
+
+    <section id="acceuil">
+      <a name="haut"  class="invisible" href="#main_text"><img src="img/boutonHaut.png" alt="Description de l’image" class="invisible" id="retour"/></a>
+
+      <h1 class="titreP"><p>A Propos</p></h1>
+      <div id="propos">
+        <div id="descri">
+          <h2>Loïc Bugnicourt-Moreira, PhD</h2>
+          <p>Diplomé d'un doctorat en Sciences des Matériaux Polymères de l'INSA de Lyon, je suis passionné par le développement de matériaux bioinspirés et de leurs applications dans les domaines biomédicaux. Ingénierie tissulaire, vectorisation de principes actifs ou dispositifs de diagnostics <em>in vitro</em> ... toujours à la recherche de nouveaux challenges !</p>
+        </div>
+        <img src="img/moimeme.png" alt="photo_identite" />
+      </div>
+
+      <div id="keyword">
+        <div class="icone" id="key_biomed">
+          <img src="img/icone_biomed.png" alt="icone_biomed" />
+          <p>Applications au domaine biomédicale</p>
+        </div>
+        
+        <div class="icone" id="key_polymere">
+          <img src="img/icone_polymere.png" alt="icone_polymere" />
+          <p>Physico-chimie des polymères</p>
+        </div>
+        
+        <div class="icone" id="key_nanotech">
+          <img src="img/icone_nanotech.png" alt="icone_nanotech" />
+          <p>Nanotechnologies, sciences des colloïdes et des milieux dispersés</p>
+        </div>
+      </div>
+
+      <h2 class="titreP"><p class="titreS">Projet en cours</p></h2>
+      <div id="enCours">
+        <p>Développement d'assemblages colloïdaux photo-activables pour le traitement contre le cancer - <em>Laboratoire Ingénierie des Matériaux Polymères - Université Lyon 1 - Encadrant: Dr Catherine Ladavière</em></p>
+      </div>
+    </section>
+
+    <span class="anchor" id="competencem"></span>
+    <section class="bkgTrame" id="competence">
+      <h1 class="titreP_blanc"><p>Compétences</p></h1>
+      
+      <div class="typeCompetence divTop">
+        <h2 class="titreCompetence">Conception et développement de matériaux</h2>
+        <div class="comp">
+          <p class="titreComp">Modification chimique<br>des polymères</p>
+          <div class= "compImg" id="compModifChimie">
+            <img src="img/comp_modif_chimique.png" />
+          </div>
+          
+          <div class="slideshow-container" id="slideshow1">
+            <div class="mySlides">
+              <h3>Dépolymérisation</h3>
+              <p class="descriptionComp">Contrôle de la longueur de chaînes de polymère par voie chimique ou physique.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Greffage chimique</h3>
+              <p class="descriptionComp">Greffage covalent de fluorophores pour le suivi par microscopie de fluoresence.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Modification chimique</h3>
+              <p class="descriptionComp">Contrôle de l'équilibre hydrophile/hydrophobe de polysaccharide par modification du ratio d'unités acétylées.</p> 
+            </div>
+            
+            
+            <!-- The dots/circles -->
+            <div class="dotClass">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow1', 0)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow1', 0)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow1', 0)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow1', 0)"></span>
+              <span class="suiv" onclick="plusSlide(1, 'slideshow1', 0)"><img src="img/boutonSuivant.png"/></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="comp">
+          <p class="titreComp">Elaboration d'entitées<br>nanométriques</p>
+          <div class= "compImg" id="compObjetNano">
+            <img src="img/comp_objet_nano.png" />
+          </div>
+          
+          <div class="slideshow-container" id="slideshow2">
+            <div class="mySlides">
+              <h3>Nanoparticules</h3>
+              <p class="descriptionComp">Synthèse de particules de biopolymère par réticulation ionique comme base d'assemblages colloïdaux supramoléculaires.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Capsules lipidiques</h3>
+              <p class="descriptionComp">Synthèse de liposomes cationiques ou anioniques, simples, photoactivables ou furtifs.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Nano-disques</h3>
+              <p class="descriptionComp">Fragments lipidiques préparés par rupture et stabilisation électrostatique de membranes lipidiques.</p> 
+            </div>
+            
+            
+            <!-- The dots/circles -->
+            <div class="dotClass">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow2', 1)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow2', 1)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow2', 1)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow2', 1)"></span>
+              <span class="suiv" onclick="plusSlide(1, 'slideshow2', 1)"><img src="img/boutonSuivant.png"/></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="comp">
+          <p class="titreComp">Fonctionnalisation<br>de surfaces</p>
+          <div class= "compImg" id="compSurface">
+            <img src="img/comp_fonctionnalisation.png" />
+          </div>
+
+          <div class="slideshow-container" id="slideshow3">
+            <div class="mySlides">
+              <h3>Adsorption physique</h3>
+              <p class="descriptionComp">Dépôt de couches minces de polymères par spin-coating sur wafers de silicium ou lames de verre.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Greffage chimique</h3>
+              <p class="descriptionComp">Silanisation de surfaces pour base de développement de surface anti-fooling par chimie-click.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Greffage photo-chimique</h3>
+              <p class="descriptionComp">Dépôt de polymères selon des motifs activés par illumination UV<br>(technologie ALVEOLE).</p> 
+            </div>
+            
+            
+            <!-- The dots/circles -->
+            <div class="dotClass">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow3',2)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow3',2)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow3',2)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow3',2)"></span>
+              <span class="suiv" onclick="plusSlide(1, 'slideshow3',2)"><img src="img/boutonSuivant.png"/></span>
+            </div>          
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="typeCompetence">
+        <h2 class="titreCompetence">Techniques de caractérisation des matériaux</h2>
+        <div class="comp">
+          <p class="titreComp">Spectroscopie</p>
+          <div class= "compImg" id="techSpectro">
+            <img src="img/tech_spectro.png" />
+          </div>
+
+          <div class="slideshow-container ssTech" id="slideshow4">
+            <div class="mySlides">
+              <h3>Infrarouge (FTIR)</h3>
+              <p class="descriptionComp">Caractérisation qualitatif et quantitatif de la structure chimique de polymères par transmission, ou ATR et ATR du silicium.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>UV-visible</h3>
+              <p class="descriptionComp">Dosage de molécules thérapeutiques (i.e. antibiotiques, anti-inflammatoire).</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Fluorescence</h3>
+              <p class="descriptionComp">Dosage de principes actifs fluorescents (i.e. ALEXA 647, 5-6-carboxyfluoresceine, dextran-rhodamine).</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Résonnance<br>magnétique nucléaire</h3>
+              <p class="descriptionComp">Caractérisation quantitatif de la structure chimique et de la pureté de polymères.</p> 
+            </div>
+            
+            <!-- The dots/circles -->
+            <div class="dotClass dot4">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow4',3)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow4',3)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow4',3)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow4',3)"></span>
+              <span class="dot" onclick="currentSlide(4, 'slideshow4',3)"></span>
+              <span class="suiv" onclick="plusSlide(1, 'slideshow4',3)"><img src="img/boutonSuivant.png"/></span>
+            </div>          
+          </div>
+        </div>
+
+        <div class="comp">
+          <p class="titreComp">Diffusion de la lumière</p>
+          <div class= "compImg" id="compDLS">
+            <img src="img/tech_diffusion_c.png" />
+          </div>
+
+          <div class="slideshow-container ssTech" id="slideshow5">
+            <div class="mySlides">
+              <h3>D.L.S.</i></h3>
+              <p class="descriptionComp">Détermination du diamètre hydrodynamique et distribution en taille de particules dispersées.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>L.D.E.</h3>
+              <p class="descriptionComp">Détermination du potentiel zêta et de la mobilité électrophorétique de colloïdes.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Transition de phase</h3>
+              <p class="descriptionComp">Détermination de la température de transition de phase liquide-gel de lipides.</p> 
+            </div>
+            
+            <!-- The dots/circles -->
+            <div class="dotClass">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow5',4)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow5',4)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow5',4)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow5',4)"></span>
+              <span class="suiv" onclick="plusSlide(1, 'slideshow5',4)"><img src="img/boutonSuivant.png"/></span>
+            </div>          
+          </div>
+        </div>
+
+        <div class="comp">
+          <p class="titreComp">Microscopie</p>
+          <div class= "compImg" id="compMicro">
+            <img src="img/tech_microscopie.png" />
+          </div>
+
+          <div class="slideshow-container ssTech" id="slideshow6">
+            <div class="mySlides">
+              <h3>Microscopie optique</h3>
+              <p class="descriptionComp">Analyse morphologique de couches minces de polymère.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Microscopie optique</h3>
+              <p class="descriptionComp">Suivi en temps réel de la prolifération bactérienne en fonction de la nature des surfaces.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>MEB</h3>
+              <p class="descriptionComp">Observation de particules polymériques - Etude de la porosité de structures polymères macroscopiques.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>MET</h3>
+              <p class="descriptionComp">Caractérisation de colloïdes organiques/inorganiques ou métalliques, de morphologie sphérique ou discoïdale par MET et cryo-MET.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>MET</h3>
+              <p class="descriptionComp">Traitement et analyse d'image. Reconstitution d'objet 3D après analyse tomographique.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>MET</h3>
+              <p class="descriptionComp">Préparation d'échantillons en voie liquide ou de coupes fines par ultramicrotomie.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Module EDX</h3>
+              <p class="descriptionComp">Détermination de la composition chimique des entités observés par MEB et MET.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>AFM</h3>
+              <p class="descriptionComp">Caractérisation de diverses objets (i.e. nanotubes de carbone, nanoparticules, chaînes de polymère) à l'état sec ou en milieu liquide.</p> 
+            </div>
+            
+            <!-- The dots/circles -->
+            <div class="dotClass dot8">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow6',5)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow6',5)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow6',5)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow6',5)"></span>
+              <span class="dot" onclick="currentSlide(4, 'slideshow6',5)"></span> 
+              <span class="dot" onclick="currentSlide(5, 'slideshow6',5)"></span> 
+              <span class="dot" onclick="currentSlide(6, 'slideshow6',5)"></span>
+              <span class="dot" onclick="currentSlide(7, 'slideshow6',5)"></span> 
+              <span class="dot" onclick="currentSlide(8, 'slideshow6',5)"></span> 
+              <span class="suiv" onclick="plusSlide(1, 'slideshow6',5)"><img src="img/boutonSuivant.png"/></span>
+            </div>          
+          </div>
+        </div>
+
+        <div class="comp">
+          <p class="titreComp">Analyse de surfaces</p>
+          <div class= "compImg" id="compAFM">
+            <img src="img/tech_afm.png" />
+          </div>
+
+          <div class="slideshow-container ssTech" id="slideshow7">
+            <div class="mySlides">
+              <h3>Ellipsométrie</h3>
+              <p class="descriptionComp">Mesure d'épaisseurs de couches minces déposées sur wafers de silicium.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>Profilométrie</h3>
+              <p class="descriptionComp">Caractérisation de la rugosité et de l'épaisseur de couches minces déposées sur des surfaces de verre.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>AFM</h3>
+              <p class="descriptionComp">Analyse de la topographie et calcul de rugosité de couches minces de polymères.</p> 
+            </div>
+            <div class="mySlides">
+              <h3>AFM</h3>
+              <p class="descriptionComp">Détermination de la<br>nature de l'interface liquide/polymères par spectroscopie à force atomique.</p> 
+            </div>
+            
+            <!-- The dots/circles -->
+            <div class="dotClass dot4">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow7',6)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow7',6)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow7',6)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow7',6)"></span>
+              <span class="dot" onclick="currentSlide(4, 'slideshow7',6)"></span> 
+              <span class="suiv" onclick="plusSlide(1, 'slideshow7',6)"><img src="img/boutonSuivant.png"/></span>
+            </div>          
+          </div>
+        </div>
+
+        <div class="comp">
+          <p class="titreComp">Autres instruments</p>
+          <div class= "compImg" id="compNeutron">
+            <img src="img/tech_neutrons.png" />
+          </div>
+
+          <div class="slideshow-container ssTech" id="slideshow8">
+            <div class="mySlides">
+              <h3>S.A.N.S.</h3>
+              <p class="descriptionComp">Diffusion de neutrons aux petits angles<br>Détermination de la structure de colloïdes en suspensions (LLB, Saclay).</p> 
+            </div>
+            <div class="mySlides">
+              <h3>S.A.X.S.</h3>
+              <p class="descriptionComp">Diffusion de rayons X aux petits angles<br>Détermination de la structure de colloïdes en suspensions (ESRF).</p> 
+            </div>
+            <div class="mySlides">
+              <h3>T.O.C.</h3>
+              <p class="descriptionComp">Analyse élémentaire de la quantité d'azote ou de carbone organique, inorganique ou total.</p> 
+            </div>
+            
+            
+            <!-- The dots/circles -->
+            <div class="dotClass">
+              <a class="prev" onclick="plusSlide(-1, 'slideshow8',7)"><img src="img/boutonPrecedent.png"/></a>
+              <span class="dot" onclick="currentSlide(1, 'slideshow8',7)"></span> 
+              <span class="dot" onclick="currentSlide(2, 'slideshow8',7)"></span> 
+              <span class="dot" onclick="currentSlide(3, 'slideshow8',7)"></span>
+              <span class="suiv" onclick="plusSlide(1, 'slideshow8',7)"><img src="img/boutonSuivant.png"/></span>
+            </div>          
+          </div>
+        </div>
+        
+      </div>
+
+      
+      <div class="typeCompetence">
+        <h2 class="titreCompetence">Informatique, analyses et traitements des données</h2>
+        <ul id="informatique">
+          <li>
+            <img src="img/logo_microsoftoffice.png" alt="logo_microsoftoffice" />
+            <p>Microsoft Office</p>
+          </li>
+          
+          <li>
+            <img src="img/logo_imagej.png" alt="logo_imagej" />
+            <p>ImageJ</p>
+          </li>
+          
+          <li>
+            <img src="img/logo_adobe.png" alt="logo_adobe" />
+            <p>Suite Adobe</p>
+          </li>
+          
+          <li>
+            <img src="img/logo_python.png" alt="logo_python" />
+            <p>Python 3.X</p>
+          </li>
+          
+          <li>
+            <img src="img/logo_htmlcss.png" alt="logo_htmlcss" />
+            <p>HTML5/CSS3/JS</p>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <span class="anchor" id="experiencem"></span>
+    <section id="experience">
+      <h1 class="titreP"><p>Expériences Professionnelles</p></h1>
+      <div class="expe" id="oxford">
+        <h2>Stage de fin d'étude</h2>
+        <img src="img/oxford.gif" alt="logo_OXFORD" />
+        <p>"Développement de biocomposites chitosane/nanotubes de carbone pour<br>l'ingénierie tissulaire."</p>
+        <ul>
+          <li>Université d'Oxford - Clarendon Lab</li>
+          <li>Encadrant: Dr Sonia Contera</li>
+          <li>Durée: 6 mois</li>
+        </ul>
+      </div>
+      
+      <div class="expe" id="insa">
+        <h2>Doctorant MESR</h2>
+        <img src="img/insalyon.png" alt="logo_INSA" />
+        <p>"Elaboration d'assemblages nanostructurés lipide/particules de polysaccharides<br>à finalités biomédicales."</p>
+        <ul>
+          <li>INSA de Lyon, Laboratoire IMP@Lyon</li>
+          <li>Encadrant: Dr Catherine Ladavière - DR</li>
+          <li>Durée: 36 mois</li>
+        </ul>
+      </div>
+
+      <div class="expe" id="satt">
+        <h2>Ingénieur de Recherche</h2>
+        <img src="img/satt.png" alt="logo_SATT" />
+        <p>"Etude et développement de surfaces<br>bioactives comme support à la<br>prolifération bactérienne."</p>
+        <ul>
+          <li>SATT Sud-Est, IMP@Lyon</li>
+          <li>Encadrant: Dr Guillaume Sudre - MCF</li>
+          <li>Durée: 18 mois</li>
+        </ul>
+      </div>
+
+      <div class="expe" id="cnrs">
+        <h2>Ingénieur de Recherche</h2>
+        <img src="img/cnrs.png" alt="logo_CNRS" />
+        <p>"Elaboration de vecteurs de principes actifs<br>photo-activables pour le traitement<br>contre le cancer."</p>
+        <ul>
+          <li>CNRS, IMP@Lyon</li>
+          <li>Encadrant: Dr Catherine Ladavière - DR</li>
+          <li>Durée: 12 mois</li>
+        </ul>
+      </div>  
+    </section>
+    
+    <span class="anchor" id="publicationm"></span>
+    <section class="bkgTrame" id="publication">
+      <h1 class="titreP_blanc"><p>Publications Scientifiques</p></h1>
+      <ul>
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S0927775714005676" target="_blank">Elaboration of chitosan nanoparticles: Favorable impact of a mild thermal treatment to obtained finely divided, spherical, and colloidally stable objects, </a><em>Loïc Bugnicourt, Pierre Alcouffe, Catherine Ladavière, Colloids and Surfaces A: Physicochemical and Engineering Aspects, 457, 2014</em></li>
+        
+        <li><a href="http://pubs.rsc.org/en/content/articlelanding/2015/tb/c5tb00154d#!divAbstract" target="_blank">Sub-nanoscale free volume and local elastic modulus of chitosan/carbon nanotube biomimetic nanocomposite scaffold-materials, </a><em>Eneko Axpe, Loïc Bugnicourt, David Merida, Sonia Antoranz Contera, Journal of Materials Chemistry B, 16, 2015</em></li>
+        
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S007967001630034X" target="_blank">Interests of chitosan nanoparticles ionically cross-linked with tripolyphosphate for biomedical applications, </a><em>Loïc Bugnicourt, Catherine Ladavière, Progress in Polymer Science, 60, 2016</em></li>
+        
+        <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/28414148" target="_blank">A close collaboration of chitosan with lipid colloidal carriers for drug delivery applications, </a><em>Loïc Bugnicourt, Catherine Ladavière, Journal of Controlled Release, 256, 2017</em></li>
+
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S002197971831021X?via%3Dihub" target="_blank">Tunable morphology of lipid/chitosan particle assemblies, </a><em>Loïc Bugnicourt, Soline Peers, Charline Dalverny, Catherine Ladavière, Journal of Colloid and Interface Sciences, 534, 2019</em></li>
+      </ul>
+    </section>
+    
+    <span class="anchor" id="contactm"></span>
+    <section>
+      <h1 class="titreP"><p>Contact</p></h1>
+      <div id="contact">
+        <form method="post" action="envoi_mail.php">
+          <span id="inProgress">BIENTÔT DISPONIBLE</span>
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+
+            <p><label for="nom">Nom :</label><br>
+              <input type="text" name="nom" id="nom" placeholder="Nom" required/></p>
+
+            <p><label for="prenom">Prénom :</label><br>
+              <input type="text" name="prenom" id="prenom" placeholder="Prénom" required/></p>
+
+            <p><label for="mail">Email :</label><br>
+              <input type="email" name="mail" id="mail" placeholder="Email" required/></p>
+          </fieldset>
+
+          <fieldset>
+            <p><label for="message" id="message_titre">Entrer votre message :</label><br/> <textarea name="message" id="message" placeholder="Saississez votre message..." rows="10" cols="40" required></textarea></p>
+
+            <input type="submit" value="Envoyer" id="bouton_envoi"/>
+          </fieldset>    
+        </form>
+        <div id="message_contact">
+          <p>Mon profil vous intéresse? Je suis toujours à la recherche de nouvelles opportunuités, alors n'hésitez pas à mon contacter <em>via</em> mes coordonnées ci-dessous, ou à l'aide du formulaire ci-joint. A bientôt !!</p>
+          
+          <h1 id="mes_coordonnees">Mes coordonnées</h1>
+          <ul>
+            <li><a href='mailto:l.bugnicourt@gmail.com'>l.bugnicourt@gmail.com</a></li>
+            <li>Laboratoire Ingénierie des Matériaux Polymères<br>15 boulevard Latarjet<br>69100 Villeurbanne<br>France</li>
+          </ul>
+          <p id="reseau_sociaux">Rejoignez moi également sur :<a href="https://fr.linkedin.com/in/lo%C3%AFc-bugnicourt-58576a83" target="_blank"><img src="img/logo_linkedin.png" alt="logo_linkedin" id="logo_linkedin"/></a></p>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="bkgTrame">
+      <p><em>@2018 Loïc Bugnicourt - Ingénieur Recherche - Graphisme et intégration par Loïc Bugnicourt</em></p>
+    </footer>
+    
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+    <script type='text/javascript' src="script.js"></script>
+  </body>
+</html>
